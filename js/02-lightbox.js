@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     gallery.innerHTML = galleryHTML;
 
     instance = new SimpleLightbox(gallery.querySelectorAll('a'), {
-      showCounter: false,
+      showCounter: true,
       captionDelay: 250,
       captionsData: 'alt',
     });
